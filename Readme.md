@@ -21,5 +21,7 @@ Given pedestrian and cyclist accidental falls is a significant cost to insurance
 ## Financials
 The money comes from three different sources: 1) end-users, 2) licensing, and 3) insurance companies. End-users pay for the use of the service. The service fee is paid annually and covers the use of the service through web and mobile. There could be multiple plans available as the service grows but, for now, there’s only one product tier. Licensing is another source of income for the service. Caregiving companies, nursing homes, etc. can purchase licenses. A discount, based on the number of licenses and length of contract will be applied. Licensing model is user-based. Third source of income is insurance companies. Since they are benefitting from the service, they are encouraged to financially support the service. Supporting the service will provide them good-will and visibility.
 
+![Flow of money](MoneyFlow.jpg)
+
 ## Ecosystem Map
 ![Ecosystem map](EcosystemMap.jpg)
