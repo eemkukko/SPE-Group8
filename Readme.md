@@ -43,3 +43,4 @@ Google has their own [Terms and Conditions](https://developers.google.com/maps/t
 
 ### Municipality open data
 Each municipality has their own terms and conditions for the usage of open data. These much be considered on a case-by-case basis.
+https://wp.oulunliikenne.fi/avoin-data/rajapintojen-kayttooikeusehdot/
