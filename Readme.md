@@ -30,3 +30,20 @@ The money comes from three different sources: 1) end-users, 2) licensing, and 3)
 
 ## Data flow diagram
 ![Data flow diagram](https://user-images.githubusercontent.com/11551635/142390059-2e3d08bd-fa26-46f0-a44d-d09afadd9e52.jpg)
+
+## Terms and Conditions of used data services
+
+The Turvat platform utilizes data from multiple sources, which have their own terms and conditions for use.
+
+### Finnish meteorological institute
+<ul>
+ <li>Creative commons Attribution 4.0 license (data source must be credited)</li>
+ <li>A maximum of 600 queries can be made within 5 minutes (max 2 queries/minute)</li>
+</ul>
+
+### Google Maps
+Google has their own [Terms and Conditions](https://developers.google.com/maps/terms-20180207) for the Maps API
+
+### Municipality open data
+Each municipality has their own terms and conditions for the usage of open data. These much be considered on a case-by-case basis.
+https://wp.oulunliikenne.fi/avoin-data/rajapintojen-kayttooikeusehdot/
