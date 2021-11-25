@@ -55,3 +55,87 @@ https://wp.oulunliikenne.fi/avoin-data/rajapintojen-kayttooikeusehdot/
 * Consumers of Turvat service data are required to follow licensing terms of data providers Turvat service is using
 * Turvat service is operated from within European union
 * Turvat service is provided on best-effort basis. Turvat service is not liable for any damage, accidents, nor loss of life.
+
+## Data space design
+
+1) For each of the data sources that are utilised in your platform:
+
+What data is used? Is there a standard data model, format or meta-data for the description of the data?
+o	Weather data (ilmatieteenlaitos)
+o	Map data (Google maps)
+o	Maintenance data (Municipalities e.g. City of Oulu)
+o	Location and accident data (pedestrian/cyclist)
+
+Who is the owner, creator or provider of the data? 
+o	External data sources (Ilmatieteenlaitos, Google, municipalities) are owners and creators of data
+o	Pedestrians/cyclists are also creators of data (but not owners when it comes to accident/location data
+o	Turvat platform is an owner, creator and provider of data
+
+What kind of permissions and access rights are used? Is there any need for contractual agreements? 
+o	end-user need to authenticate to have an access to the Turvat platform
+o	Licensing agreement with the end-user
+
+What are the conditions or terms of use for using the data?
+o	See “terms and condition of used data services”
+
+Is the long-term availability and use of the data guaranteed?
+o	Data is not needed for a long term, however data is stored on Turvat database as long as needed
+o	Ilmatieteenlaitos stores weather data for decades
+
+What interfaces are needed for data retrieval? Are there standard data exchange formats or protocols for the data?
+o	APIs for all data sources
+
+Are there missing data? What could be done with missing data?
+o	We have not identified any data missing
+
+Any other issue you have encountered 
+o	No other issues identified
+
+2) For the data the platform will create for others:
+
+Description of the data. Is there a standard data model, format or meta-data for the description of the data?
+o	RESTFUL API providing data in json format
+o	data provided: location, time, weather condition, cyclist or pedestrian, was emergency call made and to whom?
+
+What benefits will the data provide to the stakeholders of the ecosystem?
+o	see idea description and value proposition
+
+How will the data made available to other stakeholders?
+o	Via RESTFUL API described above
+
+How are FAIR data principles or the other regulations for data sharing, e.g. GDPR, are taken into account? What interfaces are provided for data exchange? Are there standard data exchange formats or protocols that can be used?
+o	Services are made public in data space collective and APIs are documented
+o	GDPR is applicable and Turvat is compliant with GDPR policies
+o	eIDAS etc. are not applicable to Turvat
+o	APIs are used for data exchange
+
+What are the conditions or terms of use for using the data?
+o	See T&C section (Terns & Conditions of Turvat service)
+
+What kind of permissions and access rights will be needed are to you the data? 
+o	End-users need to authenticate to access the platform 
+o	All data except accident severity is available for all
+o	Accident severity is available for commercial accounts/license
+o	Accident severity is not available for individuals
+
+How will you guarantee quality and reliability of the data is reliable?
+o	data is validated during ETL process
+o	records are stored only when complete (incomplete data is not stored)
+
+3) How are the design principles for the data spaces, i.e. data sovereignty, level playing field, decentralised soft infrastructure, public private governance taken into account, if they are relevant for your platform? 
+
+•	data sovereignty: personnel data is stored according to GDPR and individuals are entitled to know how data is used and request deletion of their data
+•	level playing field: we use only data that is available for anyone (municipalities, google maps, ilmatieteenlaitos)
+•	Decentralized soft infrastructure: not relevant for Turvat, Turvat adapts to any changes e.g. in APIs provided by others in the data space
+•	Public private governance: Not applicable
+
+4) How will the platform expand and evolve?
+
+•	Does the platform provide mechanisms for new participants to participate?
+•	Yes, new municipalities, new customers and new data providers are welcome to join Turvat platform
+•	Is the platform capable of creating new data value chains based on data provided by existing participants or extending the existing data value chains?
+•	Yes, assuming that this kind of accident data is not currently available. Turvat combines data from different sources and provides useful information for stakeholder groups.
+•	Can the existing participants be replaced without affecting the data value chains they were involved in?
+•	Weather data provided can be changed, same goes for map. Data coming from municipality is not available elsewhere
+•	Can each participant evolve independently of other participants, as long as the interfaces for interaction with these other participants are respected.
+•	Yes, absolutely  - no interdependencies that prevents this from happening.
