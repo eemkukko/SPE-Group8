@@ -61,7 +61,7 @@ https://wp.oulunliikenne.fi/avoin-data/rajapintojen-kayttooikeusehdot/
 1) For each of the data sources that are utilised in your platform:
 
 What data is used? Is there a standard data model, format or meta-data for the description of the data?
-o	Weather data (ilmatieteenlaitos)
+* Weather data (ilmatieteenlaitos)
 o	Map data (Google maps)
 o	Maintenance data (Municipalities e.g. City of Oulu)
 o	Location and accident data (pedestrian/cyclist)
