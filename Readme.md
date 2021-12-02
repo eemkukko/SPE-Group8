@@ -138,3 +138,13 @@ Can the existing participants be replaced without affecting the data value chain
 * Weather data provided can be changed, same goes for map. Data coming from municipality is not available elsewhere
 Can each participant evolve independently of other participants, as long as the interfaces for interaction with these other participants are respected.
 * Yes, absolutely  - no interdependencies that prevents this from happening.
+
+## Service diagrams
+### Component and deployment diagram
+![Turvat - Component  amp; deployment diagram](https://user-images.githubusercontent.com/11551635/144400664-b52e0128-79ba-439f-9a56-ee843d528118.jpg)
+
+### Activity diagram: setting navigation
+![Turvat - Activity_ setting navigation](https://user-images.githubusercontent.com/11551635/144400659-f0c4dbe2-a949-4f97-be79-633f4e2aa645.jpg)
+
+### Activity diagram: detecting accident
+![Turvat - Activity_ accident detection](https://user-images.githubusercontent.com/11551635/144400652-2a993af6-06ee-4dec-9179-692369e11b86.jpg)
