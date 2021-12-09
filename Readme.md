@@ -148,3 +148,26 @@ Can each participant evolve independently of other participants, as long as the 
 
 ### Activity diagram: detecting accident
 ![Turvat - Activity_ accident detection](https://user-images.githubusercontent.com/11551635/144400652-2a993af6-06ee-4dec-9179-692369e11b86.jpg)
+
+## Societal Impact
+Analyze and summarize how your service or project might impact society and citizens. Focus on the ecosystem and platform-specific aspects, discussing the following topics:
+
+1. What social impact of the use of your platforms/ecosystem can could you foresee in a long term?
+
+*One of the goals for Turvat service is to make walking and cycling in winter conditions safer. This is achieved by collecting information about slippery conditions, as well as data about accidents pedestrians and cyclists have had due to conditions. The information is shared amongst municipalities and insurance companies. This, in turn, is expected to result in better maintenance of pavements and therefore benefitting all inhabitants of a municipality. Economical benefits when people stay healthy. Empowering the elderly and disabled to commute independently*
+
+2. Would your service impact the job market and conditions of workers? Is it possible that your service idea could be impacted by future regulations?
+
+*We don’t anticipate Turvat service would generate new jobs, not at least directly. Of course, future changes in regulations could have an impact on the Turvat service. However, since no one knows how regulations will change in the future, it is hard to predict the impact at this point. Since we can always ask for the end user’s consent for various actions, we are not too worried about changes to regulations.*
+
+3. Does your design and service have potential impacts on diversity issues in society? Are there impacts on digital divide? Between old/young? Does it have an impact on racial or gender stereotypes?
+
+*Turvat service is targeted for elderly people. The idea is to enable elderly people to walk / cycle in harsh winter conditions. Since older people have more challenges in these kinds of conditions than the younger population, the Turvat service can lower the gap between younger and older people when it comes to walking outdoors during slippery conditions.*
+
+4. Do you think your service idea would work smoothly in a different culture, different social and economical context? 
+
+*The Turvat service is expected to work well regardless of cultural conditions, as long as the area it is deployed in has slippery winter conditions.*
+
+5. Would your platform/ecosystem be resilient if the pandemic continues? How does the pandemic affect the service provisioning that you designed?
+
+*The service uses data sources and processes that are not significantly affected by the pandemic. Also, we are not foreseeing any impact to usage of the application. Therefore we expect it to be very resilient if the pandemic continues.*
